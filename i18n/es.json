@@ -1,5 +1,5 @@
 {
-    "title": "Generador de Readme para Perfiles GitHub - por @arturssmirnovs",
+    "title": "Generador de Readme para Perfiles GitHub - por @Error-4-You",
     "jumbotron": {
         "title": "Generador de Readme para Perfiles GitHub",
         "description": "Generador súper simple de archivos Readme para perfiles de GitHub desarrollado con Vue.js, que te permite crear archivos Readme atractivos que puedes copiar/pegar en tu perfil.",
@@ -138,5 +138,5 @@
         "fact": "Dato curioso"
     },
     "warning": "Cambiar el código manualmente puede resultar en pérdida de datos si se usan los campos generadores nuevamente",
-    "author": "Hecho con ❤ por <a href=\"https://github.com/Error-4-You\" target=\"_blank\">@arturssmirnovs</a>."
+    "author": "Hecho con ❤ por <a href=\"https://github.com/Error-4-You\" target=\"_blank\">@Error-4-You</a>."
 }
