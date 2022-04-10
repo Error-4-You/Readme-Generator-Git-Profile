@@ -44,7 +44,7 @@ new Vue({
                 subtitle: "I am GitHub Readme Generator's creator",
                 text: "I made this project just for fun, it allows you to create nice and simple GitHub Readme files that you can copy/paste and use in your profile.",
 
-                banner: "https://arturssmirnovs.github.io/github-profile-readme-generator/images/banner.png",
+                banner: "https://Error-4-You.github.io/github-profile-readme-generator/images/banner.png",
 
                 skills: "VUE JS / REACT / JS / HTML / CSS",
 
