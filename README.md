@@ -21,18 +21,3 @@ You can include things like headers, subtitles, skills, a banner image, addition
 - Paste the copied code into the readme file and save
 - Enjoy!
 
-### Preview
-  
-![Github readme generator](https://arturssmirnovs.github.io/github-profile-readme-generator/images/gif.gif?v=123)
-
-### Top Contributors
-
-[@arturssmirnovs](https://github.com/arturssmirnovs)
-[@max-programming](https://github.com/max-programming)
-[@fx2000](https://github.com/fx2000)
-[@DenverCoder1](https://github.com/DenverCoder1)
-
-
-#### Resources Used
-
-  
