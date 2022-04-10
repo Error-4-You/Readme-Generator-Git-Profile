@@ -44,7 +44,7 @@ new Vue({
                 subtitle: "I am GitHub Readme Generator's creator",
                 text: "I made this project just for fun, it allows you to create nice and simple GitHub Readme files that you can copy/paste and use in your profile.",
 
-                banner: "https://error-4-you.github.io/github-profile-readme-generator/images/banner.png",
+                banner: "https://arturssmirnovs.github.io/github-profile-readme-generator/images/banner.png",
 
                 skills: "VUE JS / REACT / JS / HTML / CSS",
 
@@ -184,7 +184,7 @@ new Vue({
             if (data) {
                 
                 if (data.title) {
-                    source += `### ${data.translations.markdown.hiThere} 👋, ${data.title}`;
+                    source += `### ${data.translations.markdown.hiThere} , ${data.title}`;
                     source += "\n";
                 }
                 if (data.subtitle) {
@@ -209,35 +209,35 @@ new Vue({
                 source += "\n";
 
                 if (data.working) {
-                    source += `- 🔭 ${data.translations.markdown.working} ${data.working} `;
+                    source += `-  ${data.translations.markdown.working} ${data.working} `;
                     source += "\n";
                 }
                 if (data.learning) {
-                    source += `- 🌱 ${data.translations.markdown.learning} ${data.learning} `;
+                    source += `-  ${data.translations.markdown.learning} ${data.learning} `;
                     source += "\n";
                 }
                 if (data.collaborate) {
-                    source += `- 👯 ${data.translations.markdown.collaborate} ${data.collaborate} `;
+                    source += `-  ${data.translations.markdown.collaborate} ${data.collaborate} `;
                     source += "\n";
                 }
                 if (data.help) {
-                    source += `- 🤔 ${data.translations.markdown.help} ${data.help} `;
+                    source += `-  ${data.translations.markdown.help} ${data.help} `;
                     source += "\n";
                 }
                 if (data.ask) {
-                    source += `- 💬 ${data.translations.markdown.ask} ${data.ask} `;
+                    source += `-  ${data.translations.markdown.ask} ${data.ask} `;
                     source += "\n";
                 }
                 if (data.reach) {
-                  source += `- 📫 ${data.translations.markdown.reach}: ${data.reach} `;
+                  source += `-  ${data.translations.markdown.reach}: ${data.reach} `;
                   source += "\n";
                 }
                 if (data.pronouns) {
-                    source += `- 😄 ${data.translations.markdown.pronouns}: ${data.pronouns} `;
+                    source += `-  ${data.translations.markdown.pronouns}: ${data.pronouns} `;
                     source += "\n";
                 }
                 if (data.fact) {
-                    source += `- ⚡ ${data.translations.markdown.fact}: ${data.fact} `;
+                    source += `-  ${data.translations.markdown.fact}: ${data.fact} `;
                     source += "\n";
                 }
 
@@ -299,19 +299,19 @@ new Vue({
                 source += "\n";
 
                 if (data.arctic) {
-                    source += "<a href='https://error-4-you.github.com/'><img src='https://raw.githubusercontent.com/acervenky/animated-github-badges/master/assets/acbadge.gif' width='40' height='40'></a> ";
+                    source += "<a href='https://archiveprogram.github.com/'><img src='https://raw.githubusercontent.com/acervenky/animated-github-badges/master/assets/acbadge.gif' width='40' height='40'></a>";
                 }
 		        if (data.devprog) {
-                    source += "<a href='https://docs.github.com/en/developers'><img src='https://raw.githubusercontent.com/acervenky/animated-github-badges/master/assets/devbadge.gif' width='40' height='40'></a> ";
+                    source += "<a href='https://docs.github.com/en/developers'><img src='https://raw.githubusercontent.com/acervenky/animated-github-badges/master/assets/devbadge.gif' width='40' height='40'></a>";
                 }
 		        if (data.gitpro) {
-                    source += "<a href='https://github.com/pricing'><img src='https://raw.githubusercontent.com/acervenky/animated-github-badges/master/assets/pro.gif' width='40' height='40'></a> ";
+                    source += "<a href='https://github.com/pricing'><img src='https://raw.githubusercontent.com/acervenky/animated-github-badges/master/assets/pro.gif' width='40' height='40'></a>";
                 }
 				if (data.star) {
-                    source += "<a href='https://stars.github.com/'><img src='https://raw.githubusercontent.com/acervenky/animated-github-badges/master/assets/starbadge.gif' width='35' height='35'></a> ";
+                    source += "<a href='https://stars.github.com/'><img src='https://raw.githubusercontent.com/acervenky/animated-github-badges/master/assets/starbadge.gif' width='35' height='35'></a>";
                 }
 				if (data.sponsor) {
-                    source += "<a href='https://docs.github.com/en/github/supporting-the-open-source-community-with-github-sponsors'><img src='https://raw.githubusercontent.com/acervenky/animated-github-badges/master/assets/sponsorbadge.gif' width='35' height='35'></a> ";
+                    source += "<a href='https://docs.github.com/en/github/supporting-the-open-source-community-with-github-sponsors'><img src='https://raw.githubusercontent.com/acervenky/animated-github-badges/master/assets/sponsorbadge.gif' width='35' height='35'></a>";
                 }
 		        if (data.arctic || data.devprog || data.gitpro ||data.star || data.sponsor) {
                     source += "\n";
