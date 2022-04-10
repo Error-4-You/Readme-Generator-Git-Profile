@@ -299,7 +299,7 @@ new Vue({
                 source += "\n";
 
                 if (data.arctic) {
-                    source += "<a href='https://archiveprogram.github.com/'><img src='https://raw.githubusercontent.com/acervenky/animated-github-badges/master/assets/acbadge.gif' width='40' height='40'></a> ";
+                    source += "<a href='https://error-4-you.github.com/'><img src='https://raw.githubusercontent.com/acervenky/animated-github-badges/master/assets/acbadge.gif' width='40' height='40'></a> ";
                 }
 		        if (data.devprog) {
                     source += "<a href='https://docs.github.com/en/developers'><img src='https://raw.githubusercontent.com/acervenky/animated-github-badges/master/assets/devbadge.gif' width='40' height='40'></a> ";
